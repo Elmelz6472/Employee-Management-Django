@@ -1,0 +1,14 @@
+{% extends "contract_management/base.html" %}
+
+
+{% block content %}
+
+<ul>
+    {% for location in all_locations %}
+    <li>
+        {{location}}
+    </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}

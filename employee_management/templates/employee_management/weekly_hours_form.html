@@ -1,0 +1,19 @@
+{% extends "employee_management/base_location_2.html" %}
+
+{% block content %}
+
+<div class="container">
+    {{specific_location}}
+    <form action="" method="post">
+        {% csrf_token %}
+        {{form.as_p}}
+        <div class="col text-center">
+            <input class="btn btn-outline-primary" type="submit">
+            <a href="{% url 'view-location' specific_location.id %}">
+                <input type="button" class="btn btn-outline-secondary" value="return">
+            </a>
+        </div>
+    </form>
+</div>
+
+{% endblock %}
