@@ -62,4 +62,5 @@ urlpatterns = [
         views.undo_action,
         name="undo-action",
     ),
+    path("changelog", views.changelog, name="changelog")
 ]
