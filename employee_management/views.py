@@ -742,5 +742,4 @@ def changelog(request):
     string_text = open(file_path, "r")
     new_string = string_text.read()
     html = markdown.markdown(new_string)
-    print(type(html))
     return render(request, "employee_management/changelog.html", {"html": html})
