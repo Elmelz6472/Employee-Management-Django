@@ -40,7 +40,5 @@ class Migration(migrations.Migration):
                 ),
             ],
         ),
-        migrations.DeleteModel(
-            name="HoursWorkedFromWeeklyCalendar",
-        ),
+        migrations.DeleteModel(name="HoursWorkedFromWeeklyCalendar",),
     ]
