@@ -44,6 +44,9 @@ def server_error(request):
     return render(request, "errors/500.html", {})
 
 
+def custom_page_not_found_view(request):
+    return render(request, "errors/404.html", {})
+
 
 def register_request(request):
     if request.method == "POST":
