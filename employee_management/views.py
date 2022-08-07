@@ -1,5 +1,7 @@
 import io
 import math
+import os
+import markdown
 from django.shortcuts import render, redirect
 from django.template import RequestContext
 from django.contrib import messages
@@ -730,3 +732,16 @@ def undo_action(request, specific_id, string_object):
         return redirect("view-location")
 
     return redirect("home-location")
+
+
+def changelog(request):
+
+    module_dir = os.path.dirname(__file__)  # get current directory
+    file_path = os.path.join(module_dir, 'CHANGELOG.md')
+
+    string_text = open(file_path, "r")
+    new_string = string_text.read()
+    html = markdown.markdown(new_string)
+    print(type(html))
+    return render(request, "employee_management/changelog.html", {"html":html})
+
