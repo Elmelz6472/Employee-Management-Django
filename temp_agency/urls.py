@@ -13,3 +13,4 @@ urlpatterns = [
 ]
 
 handler500 = 'employee_management.views.server_error'
+handler404 = 'employee_management.views.custom_page_not_found_view'
