@@ -11,7 +11,8 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RemoveField(
-            model_name="locationforworking", name="number_employee",
+            model_name="locationforworking",
+            name="number_employee",
         ),
         migrations.AddField(
             model_name="locationforworking",

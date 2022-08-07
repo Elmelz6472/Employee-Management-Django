@@ -11,9 +11,11 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.RemoveField(
-            model_name="weeklycalendarfromlocation", name="mond_hour",
+            model_name="weeklycalendarfromlocation",
+            name="mond_hour",
         ),
         migrations.RemoveField(
-            model_name="weeklycalendarfromlocation", name="specific_employee",
+            model_name="weeklycalendarfromlocation",
+            name="specific_employee",
         ),
     ]
