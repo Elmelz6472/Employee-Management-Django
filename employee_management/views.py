@@ -296,8 +296,8 @@ def view_location(request, location_id):
     specific_location = LocationForWorking.objects.get(pk=location_id)
     new_dct = {}
 
-    all_weekly_calendar_from_specific_location = (
-        WeeklyCalendarFromLocation.objects.filter(location_place=specific_location)
+    all_weekly_calendar_from_specific_location = WeeklyCalendarFromLocation.objects.filter(
+        location_place=specific_location
     )
 
     for weekly_calendar in all_weekly_calendar_from_specific_location:
@@ -429,8 +429,8 @@ def edit_hours(request, location_id, calendar_id, employee_id, weekly_calendar_i
     specific_location = LocationForWorking.objects.get(pk=location_id)
     specific_weekly_calendar = WeeklyCalendarFromLocation.objects.get(pk=calendar_id)
     specific_employee_working = EmployeeBaseInformation.objects.get(pk=employee_id)
-    specific_weekly_calendar_based_on_employee = (
-        WeeklyHoursForEachEmployeeAndLocation.objects.get(pk=weekly_calendar_id)
+    specific_weekly_calendar_based_on_employee = WeeklyHoursForEachEmployeeAndLocation.objects.get(
+        pk=weekly_calendar_id
     )
 
     form = WeeklyHoursForEachEmployeeAndLocationForm(
@@ -737,11 +737,10 @@ def undo_action(request, specific_id, string_object):
 def changelog(request):
 
     module_dir = os.path.dirname(__file__)  # get current directory
-    file_path = os.path.join(module_dir, 'CHANGELOG.md')
+    file_path = os.path.join(module_dir, "CHANGELOG.md")
 
     string_text = open(file_path, "r")
     new_string = string_text.read()
     html = markdown.markdown(new_string)
     print(type(html))
-    return render(request, "employee_management/changelog.html", {"html":html})
-
+    return render(request, "employee_management/changelog.html", {"html": html})
