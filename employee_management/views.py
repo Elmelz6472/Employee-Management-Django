@@ -105,6 +105,8 @@ def home(request):
     data = EmployeeBaseInformation.objects.all()
     number_employee = len(list(EmployeeBaseInformation.objects.all()))
     number_location = len(list(LocationForWorking.objects.all()))
+
+    filename = DT.now().strftime("%B_%d_%Y") + "_employee_backup"
     return render(
         request,
         "employee_management/home.html",
@@ -112,6 +114,7 @@ def home(request):
             "data": data,
             "number_employee": number_employee,
             "number_location": number_location,
+            "filename": filename
         },
     )
 
@@ -213,6 +216,8 @@ def home_location(request):
     dct_info = {}
     number_employee = len(list(EmployeeBaseInformation.objects.all()))
     number_location = len(list(LocationForWorking.objects.all()))
+    filename = DT.now().strftime("%B_%d_%Y") + "_location_backup"
+
     for location in LocationForWorking.objects.all():
         dct_info[location] = (
             list(EmployeeBaseInformation.objects.filter(place=location)),
@@ -226,6 +231,7 @@ def home_location(request):
             "dct_info": dct_info,
             "number_employee": number_employee,
             "number_location": number_location,
+            "filename": filename
         },
     )
 
@@ -735,7 +741,6 @@ def undo_action(request, specific_id, string_object):
 
 
 def changelog(request):
-
     module_dir = os.path.dirname(__file__)
     file_path = os.path.join(module_dir, "CHANGELOG.md")
 

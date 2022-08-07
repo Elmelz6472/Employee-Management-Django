@@ -160,7 +160,7 @@
                 'copy',
                 {
                     extend: 'excelHtml5',
-                    title: 'excel_backup_"{{week.1.0.0}}"',
+                    title: "{{ filename }}",
                      exportOptions: {
                         columns: ':visible'
                     }
@@ -169,15 +169,16 @@
                     extend: 'pdfHtml5',
                     orientation: 'landscape',
                     pageSize: 'LEGAL',
-                    title: 'pdf_backup_{{week.1.0.0}}',
+                    title: "{{ filename }}",
+                    text: "PDF",
                      exportOptions: {
                         columns: ':visible'
                     }
                 },
                 {
                     extend: 'print',
-                    text: 'Print',
-                    title: 'print_{{week.1.0.0}}',
+                    text: "Print",
+                    title: "{{ filename }}",
                     exportOptions: {
                         modifier: {
                             selected: null,

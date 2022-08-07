@@ -282,7 +282,7 @@
                 'copy',
                  {
                     extend: 'excelHtml5',
-                    title: 'excel_backup_"{{week.1.0.0}}"',
+                    title: "{{ specific_location }}_calendar_backup",
                      exportOptions: {
                          columns: ':visible'
                      }
@@ -291,7 +291,7 @@
                     extend: 'pdfHtml5',
                     orientation: 'landscape',
                     pageSize: 'LEGAL',
-                    title: 'pdf_backup_{{week.1.0.0}}',
+                    title: "{{ specific_location }}_calendar_backup",
                      exportOptions: {
                          columns: ':visible'
                      }
@@ -299,7 +299,7 @@
                 {
                     extend: 'print',
                     text: 'Print',
-                    title: 'print_{{week.1.0.0}}',
+                    title: "{{ specific_location }}_calendar_backup",
                     exportOptions: {
                         modifier: {
                             selected: null,
