@@ -40,8 +40,9 @@ import pytz
 LOGIN_URL = "/employee_management/login"
 
 
-def custom_page_not_found_view(request):
-    return render()
+def server_error(request):
+    return render(request, "errors/500.html", {})
+
 
 
 def register_request(request):
@@ -723,6 +724,6 @@ def undo_action(request, specific_id, string_object):
             start_date_week=clone_instance.start_date_week,
         )
         assert_new_calendar.save()
-        return redirect("undo-action")
+        return redirect("view-location")
 
     return redirect("home-location")

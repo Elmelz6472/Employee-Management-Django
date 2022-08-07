@@ -1,7 +1,9 @@
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic.base import RedirectView
-
+from django.conf.urls import (
+    handler400, handler403, handler404, handler500
+)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -9,3 +11,5 @@ urlpatterns = [
     path("contract_management/", include('contract_management.urls')),
     path("", RedirectView.as_view(url='/employee_management/'), name='login-redirect')
 ]
+
+handler500 = 'employee_management.views.server_error'
