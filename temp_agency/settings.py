@@ -19,12 +19,11 @@ ALLOWED_HOSTS = ["10.0.0.218", "127.0.0.1",
                  "https://employee-final.herokuapp.com/", "app.omegaplacement.ca"]
 
 
-# ALLOWED_HOSTS = ["*"]
-
 # Application definition
 
 INSTALLED_APPS = [
     "employee_management",
+    "smuggler",
     "contract_management",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -125,3 +124,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 STATICSFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+
+
+# /admin/dump/, to download data from whole project;
+# /admin/load/, to load data from uploaded files or files on SMUGGLER_FIXTURE_DIR;
