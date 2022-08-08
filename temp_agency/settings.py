@@ -15,8 +15,12 @@ SECRET_KEY = "django-insecure-8=w#f25((d&o09=oj4-dte5ntw_el5s^*+yi5308b29#4axank
 DEBUG = True
 
 
-ALLOWED_HOSTS = ["10.0.0.218", "127.0.0.1",
-                 "https://employee-final.herokuapp.com/", "app.omegaplacement.ca"]
+ALLOWED_HOSTS = [
+    "10.0.0.218",
+    "127.0.0.1",
+    "https://employee-final.herokuapp.com/",
+    "app.omegaplacement.ca",
+]
 
 
 # Application definition
@@ -125,7 +129,6 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATICSFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-# SMUGGLER_FIXTURE_DIR = os.path.join(BASE_DIR, "DATABASE_BACKUP")
 
 # /admin/dump/, to download data from whole project;
 # /admin/load/, to load data from uploaded files or files on SMUGGLER_FIXTURE_DIR;

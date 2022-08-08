@@ -114,7 +114,7 @@ def home(request):
             "data": data,
             "number_employee": number_employee,
             "number_location": number_location,
-            "filename": filename
+            "filename": filename,
         },
     )
 
@@ -231,7 +231,7 @@ def home_location(request):
             "dct_info": dct_info,
             "number_employee": number_employee,
             "number_location": number_location,
-            "filename": filename
+            "filename": filename,
         },
     )
 

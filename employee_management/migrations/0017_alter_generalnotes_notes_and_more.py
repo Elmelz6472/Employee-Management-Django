@@ -7,22 +7,38 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('employee_management', '0016_employeebaseinformationclone'),
+        ("employee_management", "0016_employeebaseinformationclone"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='generalnotes',
-            name='notes',
+            model_name="generalnotes",
+            name="notes",
             field=models.CharField(blank=True, max_length=2000, null=True),
         ),
         migrations.CreateModel(
-            name='WeeklyCalendarFromLocationClone',
+            name="WeeklyCalendarFromLocationClone",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('start_date_week', models.DateField(null=True)),
-                ('custom_id', models.IntegerField(null=True)),
-                ('location_place', models.ForeignKey(db_constraint=False, null=True, on_delete=django.db.models.deletion.CASCADE, to='employee_management.locationforworking')),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("start_date_week", models.DateField(null=True)),
+                ("custom_id", models.IntegerField(null=True)),
+                (
+                    "location_place",
+                    models.ForeignKey(
+                        db_constraint=False,
+                        null=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        to="employee_management.locationforworking",
+                    ),
+                ),
             ],
         ),
     ]
