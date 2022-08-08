@@ -1,0 +1,5394 @@
+[
+{
+  "model": "employee_management.generalnotes",
+  "pk": 1,
+  "fields": {
+    "notes": null,
+    "modified_date": "2022-08-08T02:17:48.275Z"
+  }
+},
+{
+  "model": "employee_management.locationforworking",
+  "pk": 8,
+  "fields": {
+    "location_name": "mATREC",
+    "notes": "Shift de nuit 8am --> 5pm\r\npaye xxxx par semaine"
+  }
+},
+{
+  "model": "employee_management.locationforworking",
+  "pk": 9,
+  "fields": {
+    "location_name": "Meli-mELO",
+    "notes": "Not my personal client"
+  }
+},
+{
+  "model": "employee_management.locationforworkingclone",
+  "pk": 1,
+  "fields": {
+    "location_name": "test123",
+    "notes": null,
+    "custom_id": 16
+  }
+},
+{
+  "model": "employee_management.locationforworkingclone",
+  "pk": 2,
+  "fields": {
+    "location_name": "test123",
+    "notes": null,
+    "custom_id": 18
+  }
+},
+{
+  "model": "employee_management.locationforworkingclone",
+  "pk": 3,
+  "fields": {
+    "location_name": "test123",
+    "notes": null,
+    "custom_id": 17
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 7,
+  "fields": {
+    "first_name": "Melik",
+    "last_name": "Bouk",
+    "place": 8,
+    "phone_number": 5145940117,
+    "start_date": "2022-07-06",
+    "salary": 26,
+    "bonus": 200,
+    "is_driver": false,
+    "notes": "Il vient de commencer"
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 8,
+  "fields": {
+    "first_name": "Seif",
+    "last_name": "Nook",
+    "place": 9,
+    "phone_number": 459392,
+    "start_date": "2022-07-03",
+    "salary": 18,
+    "bonus": 40,
+    "is_driver": false,
+    "notes": null
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 9,
+  "fields": {
+    "first_name": "jazyl",
+    "last_name": "Boukerdenma",
+    "place": 9,
+    "phone_number": 4502,
+    "start_date": "2022-07-04",
+    "salary": 15,
+    "bonus": 0,
+    "is_driver": true,
+    "notes": "Peut conduire x, y, z au metro HIJ"
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 10,
+  "fields": {
+    "first_name": "Hind",
+    "last_name": "Rez",
+    "place": 9,
+    "phone_number": 3020,
+    "start_date": "2022-07-04",
+    "salary": 15,
+    "bonus": 0,
+    "is_driver": true,
+    "notes": null
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 11,
+  "fields": {
+    "first_name": "Couscous",
+    "last_name": "Bouk",
+    "place": 8,
+    "phone_number": 1342,
+    "start_date": "2022-07-10",
+    "salary": 20,
+    "bonus": 100,
+    "is_driver": false,
+    "notes": null
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 12,
+  "fields": {
+    "first_name": "Ryame",
+    "last_name": "Boukerdenna",
+    "place": 8,
+    "phone_number": 514504911,
+    "start_date": "2022-07-31",
+    "salary": 10,
+    "bonus": 10,
+    "is_driver": false,
+    "notes": null
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 14,
+  "fields": {
+    "first_name": "Sisstaa",
+    "last_name": "lala",
+    "place": 8,
+    "phone_number": 30303,
+    "start_date": "2022-08-01",
+    "salary": 11,
+    "bonus": 0,
+    "is_driver": true,
+    "notes": null
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 15,
+  "fields": {
+    "first_name": "Click",
+    "last_name": "Me",
+    "place": 8,
+    "phone_number": 12233,
+    "start_date": "2022-08-01",
+    "salary": 20,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": "Algerien lets gooo"
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 16,
+  "fields": {
+    "first_name": "Min",
+    "last_name": "mAX",
+    "place": 9,
+    "phone_number": 32002,
+    "start_date": "2022-07-12",
+    "salary": 21,
+    "bonus": 10,
+    "is_driver": false,
+    "notes": null
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 17,
+  "fields": {
+    "first_name": "gENERA",
+    "last_name": "kkss",
+    "place": 9,
+    "phone_number": 10333,
+    "start_date": "2022-08-01",
+    "salary": 21,
+    "bonus": 100,
+    "is_driver": false,
+    "notes": "Brooooo"
+  }
+},
+{
+  "model": "employee_management.employeebaseinformation",
+  "pk": 19,
+  "fields": {
+    "first_name": "aala",
+    "last_name": "asfcsd",
+    "place": 8,
+    "phone_number": 124223,
+    "start_date": "2022-08-01",
+    "salary": 18,
+    "bonus": 20,
+    "is_driver": true,
+    "notes": null
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 1,
+  "fields": {
+    "first_name": "Lmao",
+    "last_name": "Clon",
+    "place": 9,
+    "phone_number": 2341,
+    "start_date": "2022-08-01",
+    "salary": 20,
+    "bonus": 220,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 22
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 2,
+  "fields": {
+    "first_name": "Lmao",
+    "last_name": "Clon",
+    "place": 9,
+    "phone_number": 2341,
+    "start_date": "2022-08-01",
+    "salary": 20,
+    "bonus": 220,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 23
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 3,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 103
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 4,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 105
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 5,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 104
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 6,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 25
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 7,
+  "fields": {
+    "first_name": "Lmao",
+    "last_name": "Clon",
+    "place": 9,
+    "phone_number": 2341,
+    "start_date": "2022-08-01",
+    "salary": 20,
+    "bonus": 220,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 24
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 8,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 102
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 9,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 101
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 10,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 56
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 11,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 39
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 12,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 28
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 13,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 32
+  }
+},
+{
+  "model": "employee_management.employeebaseinformationclone",
+  "pk": 14,
+  "fields": {
+    "first_name": "ruruakak",
+    "last_name": "qwerty",
+    "place": 8,
+    "phone_number": 213482,
+    "start_date": "2022-08-07",
+    "salary": 18,
+    "bonus": 0,
+    "is_driver": false,
+    "notes": null,
+    "custom_id": 29
+  }
+},
+{
+  "model": "employee_management.weeklycalendarfromlocation",
+  "pk": 39,
+  "fields": {
+    "location_place": 9,
+    "start_date_week": "2022-07-24"
+  }
+},
+{
+  "model": "employee_management.weeklycalendarfromlocation",
+  "pk": 40,
+  "fields": {
+    "location_place": 8,
+    "start_date_week": "2022-07-29"
+  }
+},
+{
+  "model": "employee_management.weeklycalendarfromlocation",
+  "pk": 48,
+  "fields": {
+    "location_place": 8,
+    "start_date_week": "2022-07-25"
+  }
+},
+{
+  "model": "employee_management.weeklycalendarfromlocation",
+  "pk": 49,
+  "fields": {
+    "location_place": 8,
+    "start_date_week": "2022-08-05"
+  }
+},
+{
+  "model": "employee_management.weeklycalendarfromlocation",
+  "pk": 51,
+  "fields": {
+    "location_place": 8,
+    "start_date_week": "2022-08-14"
+  }
+},
+{
+  "model": "employee_management.weeklycalendarfromlocation",
+  "pk": 52,
+  "fields": {
+    "location_place": 8,
+    "start_date_week": "2022-08-14"
+  }
+},
+{
+  "model": "employee_management.weeklycalendarfromlocationclone",
+  "pk": 1,
+  "fields": {
+    "location_place": 8,
+    "start_date_week": "2022-08-14",
+    "custom_id": 50
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 16,
+  "fields": {
+    "specific_weekly_calendar": 39,
+    "specific_employee_working": 9,
+    "monday_num_hours": 4,
+    "tuesday_num_hours": 4,
+    "wednesday_num_hours": 4,
+    "thursday_num_hours": 3,
+    "friday_num_hours": 2,
+    "saturday_num_hours": 3,
+    "sunday_num_hours": 4
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 17,
+  "fields": {
+    "specific_weekly_calendar": 40,
+    "specific_employee_working": 7,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 18,
+  "fields": {
+    "specific_weekly_calendar": 40,
+    "specific_employee_working": 11,
+    "monday_num_hours": 3,
+    "tuesday_num_hours": 5,
+    "wednesday_num_hours": 5,
+    "thursday_num_hours": 6,
+    "friday_num_hours": 6,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 19,
+  "fields": {
+    "specific_weekly_calendar": 39,
+    "specific_employee_working": 8,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 20,
+  "fields": {
+    "specific_weekly_calendar": 39,
+    "specific_employee_working": 10,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 22,
+  "fields": {
+    "specific_weekly_calendar": 40,
+    "specific_employee_working": 12,
+    "monday_num_hours": 5,
+    "tuesday_num_hours": 5,
+    "wednesday_num_hours": 5,
+    "thursday_num_hours": 8,
+    "friday_num_hours": 8,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 24,
+  "fields": {
+    "specific_weekly_calendar": 40,
+    "specific_employee_working": 14,
+    "monday_num_hours": 15,
+    "tuesday_num_hours": 10,
+    "wednesday_num_hours": 10,
+    "thursday_num_hours": 10,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 5,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 27,
+  "fields": {
+    "specific_weekly_calendar": 40,
+    "specific_employee_working": 15,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 15,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 28,
+  "fields": {
+    "specific_weekly_calendar": 40,
+    "specific_employee_working": 19,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 30,
+  "fields": {
+    "specific_weekly_calendar": 48,
+    "specific_employee_working": 11,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 31,
+  "fields": {
+    "specific_weekly_calendar": 48,
+    "specific_employee_working": 7,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 32,
+  "fields": {
+    "specific_weekly_calendar": 48,
+    "specific_employee_working": 12,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 33,
+  "fields": {
+    "specific_weekly_calendar": 48,
+    "specific_employee_working": 14,
+    "monday_num_hours": 10,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 34,
+  "fields": {
+    "specific_weekly_calendar": 48,
+    "specific_employee_working": 15,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 35,
+  "fields": {
+    "specific_weekly_calendar": 48,
+    "specific_employee_working": 19,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 36,
+  "fields": {
+    "specific_weekly_calendar": 39,
+    "specific_employee_working": 17,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 37,
+  "fields": {
+    "specific_weekly_calendar": 39,
+    "specific_employee_working": 16,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 42,
+  "fields": {
+    "specific_weekly_calendar": 49,
+    "specific_employee_working": 7,
+    "monday_num_hours": 0,
+    "tuesday_num_hours": 0,
+    "wednesday_num_hours": 0,
+    "thursday_num_hours": 0,
+    "friday_num_hours": 0,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 43,
+  "fields": {
+    "specific_weekly_calendar": 49,
+    "specific_employee_working": 11,
+    "monday_num_hours": 6,
+    "tuesday_num_hours": 8,
+    "wednesday_num_hours": 8,
+    "thursday_num_hours": 8,
+    "friday_num_hours": 8,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "employee_management.weeklyhoursforeachemployeeandlocation",
+  "pk": 44,
+  "fields": {
+    "specific_weekly_calendar": 49,
+    "specific_employee_working": 12,
+    "monday_num_hours": 8,
+    "tuesday_num_hours": 8,
+    "wednesday_num_hours": 8,
+    "thursday_num_hours": 8,
+    "friday_num_hours": 8,
+    "saturday_num_hours": 0,
+    "sunday_num_hours": 0
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "locationforworking"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "employeebaseinformation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "weeklycalendarfromlocation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "hoursworkedfromweeklycalendar"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "weeklyhoursforeachemployeeandlocation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "generalnotes"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "locationforworkingclone"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "employeebaseinformationclone"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "fields": {
+    "app_label": "employee_management",
+    "model": "weeklycalendarfromlocationclone"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1kmtwmo2gn3zl6j1enrq3f92s5g6tpgb",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oCWDz:qytPSFyDqC3uugQvgGpQqMLB9r_iLkDKi_wKaGrm1PY",
+    "expire_date": "2022-07-30T01:04:03.758Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2qq0rkznbaz0p0bssbmqw58bxrkptyrk",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oIwp5:S3WW4vKbbhfEiCNYKmi6CYbTmmZr9LoNPQvxMRz9jzs",
+    "expire_date": "2022-08-16T18:40:55.097Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "34q403icc6og9drldhqiqk4pd1mdy815",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oCmTW:MOHlk4Ifd15Lj1b_SBAZTBVBrehdWsE3X4ywHprHDHY",
+    "expire_date": "2022-07-30T18:25:10.442Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3tm6im8lc2rl0mz3saqt13u5acb37yvo",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oHXjs:05ABZPIonspAU6HSNnK1aEq0nnsnssaActzoXI9wthQ",
+    "expire_date": "2022-08-12T21:41:44.156Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "55570bkkfh0uz4lkbcut2t027vwxsgv5",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oJknQ:cS1L_P0UJ3FJrrhNnCo6rATaW5s5kNCW90Nx64KKnuU",
+    "expire_date": "2022-08-19T00:02:32.594Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "58by8nh41hzksrib8t8jcu26cdpeb2bw",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oEzZc:6BkUIOVGDdHhpo3mHboScbAMUiQ8BkipwGU7ychm6ik",
+    "expire_date": "2022-08-05T20:48:36.059Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ew93fq6fk4v5h08z819ajccw1sdgter2",
+  "fields": {
+    "session_data": "e30:1oHVTy:GKa0bkvKaf9PnXM-BnTihvN-uzpEwlts-RehylxhOjU",
+    "expire_date": "2022-08-12T19:17:10.970Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "hb50rf9sxdej0uvw3tyzd6dyeyildqtu",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oD82s:nWxraTus4mGOpUUQsq8ce__wxhLwUDgZ7SlmmA78ma8",
+    "expire_date": "2022-07-31T17:27:06.099Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i7wdf3u8flsz0b89wzh96u4zk8ta3c6x",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oJ6I7:cPCRR4NWRg23vDavwiROdU3hAP_-5TYB1afzdql3ZkU",
+    "expire_date": "2022-08-17T04:47:31.467Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "k4dg5zegg9sh9ibgxw2ob54k484ujprt",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oFgnt:ld5n5WsmJlm78qjNikPZq1EPkaX9vQH_SzRs4zk73o0",
+    "expire_date": "2022-08-07T18:58:13.824Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l82my4x0vgwe3mn6vksk2af8lkfciebj",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-ZB2Hkp4zWOvdDQkgW4qTCnF3iJQC2jcz76USbuuUtiZLmlmdlVWn3y0jPaTsgO9YblVTLesyZ70r-qBNXyvL83K4fwcTtulbm4zYE3twzgTDNkYPEXEkMMCDY6LOBPZBJMiQwfRWXOhg9ALWIw3q_QHg6TfC:1oKs4E:Gh17mRgsK3kfjFA5jHXanX_pp_xMaS9z-cx0vDPFUto",
+    "expire_date": "2022-08-22T02:00:30.287Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m4nljdmud1hvi1theonvml2dgdbkg9ez",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oKPj9:rHBWubJo3DMkDA3OueVVd3CNIZ_X7z3rwmoCXoEoP5s",
+    "expire_date": "2022-08-20T19:44:51.490Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q46xnit5mwtt2ti07md4rk5khh7i6csk",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-ZB2Hkp4zWOvdDQkgW4qTCnF3iJQC2jcz76USbuuUtiZLmlmdlVWn3y0jPaTsgO9YblVTLesyZ70r-qBNXyvL83K4fwcTtulbm4zYE3twzgTDNkYPEXEkMMCDY6LOBPZBJMiQwfRWXOhg9ALWIw3q_QHg6TfC:1oKs2h:B9JUOywvRCDsD048N2FyBDjVjvHo7kXbRgVRoT9ARqY",
+    "expire_date": "2022-08-22T01:58:55.130Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "qnw9uo8lrxih6ezmc5i5zolmri9htft4",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-ZB2Hkp4zWOvdDQkgW4qTCnF3iJQC2jcz76USbuuUtiZLmlmdlVWn3y0jPaTsgO9YblVTLesyZ70r-qBNXyvL83K4fwcTtulbm4zYE3twzgTDNkYPEXEkMMCDY6LOBPZBJMiQwfRWXOhg9ALWIw3q_QHg6TfC:1oKs1I:BZpG7Q0lHL8MSbPGEScXOw2DrbjxpVu5_3V9-DmBFfI",
+    "expire_date": "2022-08-22T01:57:28.622Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sg7u8mbig1pbk2420wzdvkxar3taom1u",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-ZB2Hkp4zWOvdDQkgW4qTCnF3iJQC2jcz76USbuuUtiZLmlmdlVWn3y0jPaTsgO9YblVTLesyZ70r-qBNXyvL83K4fwcTtulbm4zYE3twzgTDNkYPEXEkMMCDY6LOBPZBJMiQwfRWXOhg9ALWIw3q_QHg6TfC:1oKs5m:7R21Hd_wlq6w5WCM4NCtX1w2fmYVpV2zPSxtahphWlM",
+    "expire_date": "2022-08-22T02:02:06.164Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ut8dbbzsc8b0yeun9rzj1f42v1dn0qoa",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oJ63n:3BoLi9ytGTzRcQQL4bQ4jZiFhPlJIUlLe9P3TwJXj_Y",
+    "expire_date": "2022-08-17T04:32:43.661Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xs4bdlrqokxwb1wy564aoy8orcjz8niy",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-ZB2Hkp4zWOvdDQkgW4qTCnF3iJQC2jcz76USbuuUtiZLmlmdlVWn3y0jPaTsgO9YblVTLesyZ70r-qBNXyvL83K4fwcTtulbm4zYE3twzgTDNkYPEXEkMMCDY6LOBPZBJMiQwfRWXOhg9ALWIw3q_QHg6TfC:1oKrtY:lvfLjAk-5IfbqLvMss3dEZGqIhxlDExJmuRUfPx2VM0",
+    "expire_date": "2022-08-22T01:49:28.420Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xsc1514bgcueerf4rieme8lj7drb7457",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oHVTC:bsdq09O5EhTzMtRQ0512E9tCOkbeWoNX-zU1C7UrAKQ",
+    "expire_date": "2022-08-12T19:16:22.653Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xy43hh944nkdx2ik0cpg3bf66qo5jwj1",
+  "fields": {
+    "session_data": ".eJxVjDEOAiEQRe9CbQgDjiOW9p6BDAzIqmGTZbcy3t2QbKHtf-_9twq8rTVsPS9hEnVRoA6_W-T0zG0AeXC7zzrNbV2mqIeid9r1bZb8uu7u30HlXkcNjq2cCemUIQkZMsk65kKOYxbGIuiBok8oeBRfIBFaA5EQHDhUny_wFDfF:1oJkqK:JG2RJMLuNaRM3AXgAIN18fzP4HxodEY2UVD3nrzDe0o",
+    "expire_date": "2022-08-19T00:05:32.723Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zsyj97qbyuw0inuvk28ghmdhmam87c6j",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2ZClIBaP3vsGsuwuUjU0Ke3J-HdD0oNeZybzVhH3rcS9yRpnVldl1OmXJaSn1C74gfW-aFrqts5J90QftulpYXndjvZvULCVvnUhI2UPRAGMDdbDKCBsCSR4djnJYIPhBDBkGSXRGS8IjCZIcszq8wXyDTjf:1oL60J:G7xL_MJ6BxIVAXAW8LD5AJlDikxvRZVtsSL4GiQbD-A",
+    "expire_date": "2022-08-22T16:53:23.151Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add location for working",
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "codename": "add_locationforworking"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change location for working",
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "codename": "change_locationforworking"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete location for working",
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "codename": "delete_locationforworking"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view location for working",
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "codename": "view_locationforworking"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add employee base information",
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "codename": "add_employeebaseinformation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change employee base information",
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "codename": "change_employeebaseinformation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete employee base information",
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "codename": "delete_employeebaseinformation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view employee base information",
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "codename": "view_employeebaseinformation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": [
+      "admin",
+      "logentry"
+    ],
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view permission",
+    "content_type": [
+      "auth",
+      "permission"
+    ],
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view group",
+    "content_type": [
+      "auth",
+      "group"
+    ],
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view user",
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view content type",
+    "content_type": [
+      "contenttypes",
+      "contenttype"
+    ],
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view session",
+    "content_type": [
+      "sessions",
+      "session"
+    ],
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add weekly calendar from location",
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "codename": "add_weeklycalendarfromlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change weekly calendar from location",
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "codename": "change_weeklycalendarfromlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete weekly calendar from location",
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "codename": "delete_weeklycalendarfromlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view weekly calendar from location",
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "codename": "view_weeklycalendarfromlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add hours worked from weekly calendar",
+    "content_type": [
+      "employee_management",
+      "hoursworkedfromweeklycalendar"
+    ],
+    "codename": "add_hoursworkedfromweeklycalendar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change hours worked from weekly calendar",
+    "content_type": [
+      "employee_management",
+      "hoursworkedfromweeklycalendar"
+    ],
+    "codename": "change_hoursworkedfromweeklycalendar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete hours worked from weekly calendar",
+    "content_type": [
+      "employee_management",
+      "hoursworkedfromweeklycalendar"
+    ],
+    "codename": "delete_hoursworkedfromweeklycalendar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view hours worked from weekly calendar",
+    "content_type": [
+      "employee_management",
+      "hoursworkedfromweeklycalendar"
+    ],
+    "codename": "view_hoursworkedfromweeklycalendar"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add weekly hours for each employee and location",
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "codename": "add_weeklyhoursforeachemployeeandlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change weekly hours for each employee and location",
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "codename": "change_weeklyhoursforeachemployeeandlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete weekly hours for each employee and location",
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "codename": "delete_weeklyhoursforeachemployeeandlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view weekly hours for each employee and location",
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "codename": "view_weeklyhoursforeachemployeeandlocation"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add general notes",
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "codename": "add_generalnotes"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change general notes",
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "codename": "change_generalnotes"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete general notes",
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "codename": "delete_generalnotes"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view general notes",
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "codename": "view_generalnotes"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add location for working clone",
+    "content_type": [
+      "employee_management",
+      "locationforworkingclone"
+    ],
+    "codename": "add_locationforworkingclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change location for working clone",
+    "content_type": [
+      "employee_management",
+      "locationforworkingclone"
+    ],
+    "codename": "change_locationforworkingclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete location for working clone",
+    "content_type": [
+      "employee_management",
+      "locationforworkingclone"
+    ],
+    "codename": "delete_locationforworkingclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view location for working clone",
+    "content_type": [
+      "employee_management",
+      "locationforworkingclone"
+    ],
+    "codename": "view_locationforworkingclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add employee base information clone",
+    "content_type": [
+      "employee_management",
+      "employeebaseinformationclone"
+    ],
+    "codename": "add_employeebaseinformationclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change employee base information clone",
+    "content_type": [
+      "employee_management",
+      "employeebaseinformationclone"
+    ],
+    "codename": "change_employeebaseinformationclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete employee base information clone",
+    "content_type": [
+      "employee_management",
+      "employeebaseinformationclone"
+    ],
+    "codename": "delete_employeebaseinformationclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view employee base information clone",
+    "content_type": [
+      "employee_management",
+      "employeebaseinformationclone"
+    ],
+    "codename": "view_employeebaseinformationclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can add weekly calendar from location clone",
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocationclone"
+    ],
+    "codename": "add_weeklycalendarfromlocationclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can change weekly calendar from location clone",
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocationclone"
+    ],
+    "codename": "change_weeklycalendarfromlocationclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can delete weekly calendar from location clone",
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocationclone"
+    ],
+    "codename": "delete_weeklycalendarfromlocationclone"
+  }
+},
+{
+  "model": "auth.permission",
+  "fields": {
+    "name": "Can view weekly calendar from location clone",
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocationclone"
+    ],
+    "codename": "view_weeklycalendarfromlocationclone"
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$320000$jLsg9NbUErdr9RHJlCpuW2$b5VESXTb4tYsVh/rYRhyGNgzxg7YcvSjlHKOxXYoniQ=",
+    "last_login": "2022-08-08T16:53:23.149Z",
+    "is_superuser": true,
+    "username": "malikmacbook",
+    "first_name": "",
+    "last_name": "",
+    "email": "elmelz2000@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-07-16T01:03:52.322Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "fields": {
+    "password": "pbkdf2_sha256$390000$N9Wjg5mvZpK1UhnghwHw98$FQ2ZOmhSLICBkqyNSrLfaJWYp+S40YUK3vpU9qQ1iSo=",
+    "last_login": "2022-08-08T00:18:12.775Z",
+    "is_superuser": false,
+    "username": "nani",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-08-08T00:18:02.046Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-07-16T02:57:22.528Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "6",
+    "object_repr": "qwert:kbxk zcbsdvdsvdsvsdfzbdf:2022-07-07",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-07-16T02:57:22.532Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "5",
+    "object_repr": "qwert:kbxk zcbsdvdsvdsvsdfzbdf:2022-07-09",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-07-16T02:57:22.534Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "4",
+    "object_repr": "qwert:kbxk zcbsdvdsvdsvsdfzbdf:2022-07-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-07-16T02:57:22.535Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "3",
+    "object_repr": "qwert:kbxk zcbsdvdsvdsvsdfzbdf:2022-07-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-07-16T02:57:22.537Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "2",
+    "object_repr": "qwert:kbxk zcbsdvdsvdsvsdfzbdf:2022-07-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-07-16T02:57:22.538Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "1",
+    "object_repr": "qwert:kbxk zcbsdvdsvdsvsdfzbdf:2022-07-14",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-07-17T00:41:51.540Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "hoursworkedfromweeklycalendar"
+    ],
+    "object_id": "4",
+    "object_repr": "Lmaoo:Nss:2022-07-01:Ryame:Boukerdenna:Lmaoo:Nss:321:2022-07-10:3000$:True:None:5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-07-17T00:41:51.545Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "hoursworkedfromweeklycalendar"
+    ],
+    "object_id": "3",
+    "object_repr": "Lmaoo:Nss:2022-07-11:Ryame:Boukerdenna:Lmaoo:Nss:321:2022-07-10:3000$:True:None:55",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-07-17T00:41:51.546Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "hoursworkedfromweeklycalendar"
+    ],
+    "object_id": "2",
+    "object_repr": "Lmaoo:Nss:2022-07-11:Ryame:Boukerdenna:Lmaoo:Nss:321:2022-07-10:3000$:True:None:100",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-07-17T00:42:55.282Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "7",
+    "object_repr": "Lmaoo:Nss",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-07-17T00:42:55.286Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "6",
+    "object_repr": "Jijel:None",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-07-17T17:29:49.002Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "16",
+    "object_repr": "Clown:2022-07-02",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2022-07-17T17:29:49.005Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "15",
+    "object_repr": "Clown:2022-07-10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2022-07-17T17:29:49.007Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "14",
+    "object_repr": "Meli-Melo:2022-07-23",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2022-07-17T17:29:49.009Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "13",
+    "object_repr": "Meli-Melo:2022-07-08",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2022-07-17T18:24:02.457Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "17",
+    "object_repr": "Meli-Melo:2022-07-17",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2022-07-24T19:02:31.115Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "19",
+    "object_repr": "Clown:2022-07-08",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2022-07-24T19:02:31.119Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "18",
+    "object_repr": "Clown:2022-07-13",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2022-07-24T19:02:31.121Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "17",
+    "object_repr": "Meli-Melo:2022-07-17",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2022-07-26T14:54:57.567Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "3",
+    "object_repr": "Melik:Bouk:Meli-Melo:2022-07-06:1500:Il vient de commencer:5145940117:Meli-Melo:2022-07-01:10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2022-07-26T15:09:28.773Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "3",
+    "object_repr": "Melik:Bouk:Meli-Melo:2022-07-06:1500:Il vient de commencer:5145940117:Meli-Melo:2022-07-01:10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2022-07-26T15:09:40.991Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "27",
+    "object_repr": "Meli-Melo:2022-07-01",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2022-07-26T15:09:40.994Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "26",
+    "object_repr": "Clown:2022-07-07",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2022-07-26T15:09:40.996Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "25",
+    "object_repr": "Meli-Melo:2022-07-03",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2022-07-26T15:09:40.998Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "24",
+    "object_repr": "Meli-Melo:2022-07-10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2022-07-26T15:16:21.251Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "4",
+    "object_repr": "Melik:Bouk:Meli-Melo:2022-07-06:1500:Il vient de commencer:5145940117:Meli-Melo:2022-07-03:5",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2022-07-26T15:17:47.555Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "5",
+    "object_repr": "Couscous:Bouk:Meli-Melo:2022-07-10:2001:None:1342:Meli-Melo:2022-07-03:10",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2022-07-26T15:19:32.427Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "5",
+    "object_repr": "Couscous:Bouk:Meli-Melo:2022-07-10:2001:None:1342:Meli-Melo:2022-07-03:10",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2022-07-26T15:19:32.430Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "4",
+    "object_repr": "Melik:Bouk:Meli-Melo:2022-07-06:1500:Il vient de commencer:5145940117:Meli-Melo:2022-07-03:5",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2022-07-26T15:19:56.199Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "6",
+    "object_repr": "Couscous:Bouk:Meli-Melo:2022-07-10:2001:None:1342:Meli-Melo:2022-07-03:2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2022-07-26T15:36:06.021Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "7",
+    "object_repr": "Melik:Bouk:Meli-Melo:2022-07-06:1500:Il vient de commencer:5145940117:Meli-Melo:2022-07-03:100",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2022-07-26T22:43:52.969Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "29",
+    "object_repr": "Meli-Melo:2022-07-03",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2022-07-27T17:41:47.760Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "7",
+    "object_repr": "Melik:Bouk:Meli-Melo:2022-07-06:1500:Il vient de commencer:5145940117:Meli-Melo:2022-07-03:100",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2022-07-27T17:41:47.764Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "6",
+    "object_repr": "Couscous:Bouk:Meli-Melo:2022-07-10:2001:None:1342:Meli-Melo:2022-07-03:2",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2022-07-27T17:42:02.669Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "8",
+    "object_repr": "Hind:Rez:Clown:2022-07-04:5000:None:3020:Clown:2022-07-10:100",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2022-07-27T18:08:09.292Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "9",
+    "object_repr": "Seif:Nook:Clown:2022-07-03:222:None:459392:Clown:2022-07-24:55",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2022-07-28T19:29:58.308Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General Notes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2022-07-28T19:37:09.845Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General Notes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Notes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2022-08-01T18:16:04.110Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "BOUZINNNNN:2022-08-01 18:16:04.107813+00:00",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Notes\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2022-08-01T18:46:38.729Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "12",
+    "object_repr": "Ryame",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2022-08-01T18:58:08.559Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "13",
+    "object_repr": "Lmsmms",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2022-08-02T00:43:54.637Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "13",
+    "object_repr": "Lmsmms",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2022-08-02T00:53:42.241Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "22",
+    "object_repr": "Meli-Melo:2022-07-29Ryame:Boukerdenna",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2022-08-02T01:31:40.498Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "14",
+    "object_repr": "Added Sisstaa lala",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2022-08-02T01:34:33.474Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "11",
+    "object_repr": "Added TEST1234",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2022-08-02T02:05:16.925Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "43",
+    "object_repr": "Meli-Melo:2022-08-01",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2022-08-02T02:05:37.031Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "23",
+    "object_repr": "2022-08-01 <==> Melik Bouk",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2022-08-02T02:09:23.540Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "Test working out kanye west is the goat @ 2022-08-02 02:09:23.530990+00:00",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2022-08-02T02:15:41.965Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "11",
+    "object_repr": "TEST1234",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2022-08-02T02:20:09.633Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "18",
+    "object_repr": "Couscous Bouk @ 2022-07-29",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2022-08-02T02:20:45.335Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "22",
+    "object_repr": "Ryame Boukerdenna @ 2022-07-29",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2022-08-02T02:32:16.228Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "24",
+    "object_repr": "Sisstaa lala working @ Meli-Melo starting 2022-07-29",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2022-08-02T02:34:59.519Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "15",
+    "object_repr": "Click Me working at Meli-Melo",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2022-08-02T02:35:16.797Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "16",
+    "object_repr": "Min mAX working at Matrec",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2022-08-02T02:35:40.403Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "17",
+    "object_repr": "gENERA kkss working at Matrec",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2022-08-02T02:36:19.779Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "16",
+    "object_repr": "Min mAX working at Matrec",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2022-08-02T02:38:01.681Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "18",
+    "object_repr": "Empll Koka working at Plastique Millet",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2022-08-02T02:42:25.053Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "44",
+    "object_repr": "2022-08-01 calendar for Plastique Millet",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2022-08-02T02:42:39.710Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "25",
+    "object_repr": "Empll Koka working @ Plastique Millet starting 2022-08-01",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2022-08-02T02:43:57.445Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "25",
+    "object_repr": "Empll Koka @ 2022-08-01",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2022-08-02T18:40:40.148Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "17",
+    "object_repr": "gENERA kkss working at Matrec",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2022-08-02T18:47:46.653Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "24",
+    "object_repr": "Sisstaa lala @ 2022-07-29",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2022-08-02T18:48:34.472Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "45",
+    "object_repr": "2022-07-22 calendar for Meli-Melo",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2022-08-02T20:18:38.804Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "45",
+    "object_repr": "2022-07-22 @ Meli-Melo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2022-08-03T02:37:50.168Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "18",
+    "object_repr": "Empll Koka working at Plastique Millet",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2022-08-03T02:38:11.570Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "18",
+    "object_repr": "Empll Koka working at Plastique Millet",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2022-08-03T02:41:53.681Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "26",
+    "object_repr": "Couscous Bouk working @ Meli-Melo starting 2022-08-01",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2022-08-03T02:42:02.207Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "43",
+    "object_repr": "2022-08-01 @ Meli-Melo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2022-08-03T03:50:16.535Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "12",
+    "object_repr": "Melli-Melo place ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2022-08-03T03:59:26.291Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "27",
+    "object_repr": "Click Me working @ Meli-Melo starting 2022-07-29",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2022-08-03T04:00:06.666Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2022-08-03T04:18:59.774Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "9",
+    "object_repr": "Matrec",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2022-08-03T04:33:57.139Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "9",
+    "object_repr": "Ryame Boukerdenma working at Matrec",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2022-08-03T04:35:13.866Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2022-08-03T04:50:09.402Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2022-08-03T04:50:31.807Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2022-08-04T00:45:24.421Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2022-08-04T04:24:13.363Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "46",
+    "object_repr": "2022-08-01 calendar for Meli-Melo",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2022-08-04T04:52:49.971Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2022-08-04T23:12:05.700Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "20",
+    "object_repr": "Test VBou working at Matrec",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2022-08-04T23:12:42.345Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "20",
+    "object_repr": "Test VBou working at Matrec",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2022-08-04T23:15:27.949Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "13",
+    "object_repr": "boite rose",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2022-08-04T23:15:52.299Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "20",
+    "object_repr": "Test VBou working at boite rose",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2022-08-04T23:16:49.953Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "9",
+    "object_repr": "Meli-mELO",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2022-08-04T23:17:07.874Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "8",
+    "object_repr": "tEST123",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2022-08-04T23:17:22.720Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "8",
+    "object_repr": "mATREC",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2022-08-04T23:17:49.953Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "8",
+    "object_repr": "mATREC",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2022-08-04T23:19:43.028Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "47",
+    "object_repr": "2022-08-01 calendar for mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2022-08-04T23:19:49.566Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "46",
+    "object_repr": "2022-08-01 @ mATREC",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2022-08-04T23:21:00.065Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "29",
+    "object_repr": "Melik Bouk working @ mATREC starting 2022-08-01",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2022-08-04T23:21:26.443Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "7",
+    "object_repr": "Melik Bouk working at mATREC",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2022-08-04T23:24:21.041Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklyhoursforeachemployeeandlocation"
+    ],
+    "object_id": "29",
+    "object_repr": "Melik Bouk @ 2022-08-01",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2022-08-04T23:24:36.078Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "47",
+    "object_repr": "2022-08-01 @ mATREC",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2022-08-04T23:24:58.160Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "48",
+    "object_repr": "2022-07-25 calendar for mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2022-08-04T23:55:48.609Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "13",
+    "object_repr": "boite rose place ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2022-08-04T23:55:53.428Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "10",
+    "object_repr": "Plastique Millet place ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2022-08-04T23:57:12.377Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "9",
+    "object_repr": "jazyl Boukerdenma working at Meli-mELO",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2022-08-04T23:58:51.916Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "14",
+    "object_repr": "pAPA_test",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2022-08-04T23:59:24.872Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "21",
+    "object_repr": "papa_test_employe dwfw working at pAPA_test",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2022-08-05T00:00:04.516Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "locationforworking"
+    ],
+    "object_id": "14",
+    "object_repr": "pAPA_test place ",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2022-08-05T00:01:27.470Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2022-08-05T00:05:55.447Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "7",
+    "object_repr": "Melik Bouk working at mATREC",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2022-08-06T22:26:20.355Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2022-08-07T01:19:23.766Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "50",
+    "object_repr": "2022-08-14 calendar for mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2022-08-07T01:19:45.412Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "weeklycalendarfromlocation"
+    ],
+    "object_id": "50",
+    "object_repr": "2022-08-14 @ mATREC [Calendar]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2022-08-08T00:17:48.997Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "test",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2022-08-08T00:17:48.999Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "test123",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2022-08-08T00:18:02.371Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "auth",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "nani",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2022-08-08T01:59:16.682Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "25",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2022-08-08T02:00:49.989Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "26",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2022-08-08T02:02:21.065Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "27",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2022-08-08T02:02:30.600Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "28",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2022-08-08T02:02:38.643Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "29",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2022-08-08T02:02:45.899Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "30",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2022-08-08T02:02:52.964Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "31",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2022-08-08T02:02:59.906Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "32",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2022-08-08T02:03:07.019Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "33",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2022-08-08T02:03:13.943Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "34",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2022-08-08T02:03:20.883Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "35",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2022-08-08T02:03:27.961Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "36",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2022-08-08T02:03:34.870Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "37",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2022-08-08T02:03:41.802Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "38",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2022-08-08T02:03:48.802Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "39",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2022-08-08T02:03:55.715Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "40",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2022-08-08T02:04:02.652Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "41",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2022-08-08T02:04:09.623Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "42",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2022-08-08T02:04:16.502Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "43",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2022-08-08T02:04:23.411Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "44",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2022-08-08T02:04:30.459Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "45",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2022-08-08T02:04:37.558Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "46",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2022-08-08T02:04:44.520Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "47",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2022-08-08T02:04:51.466Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "48",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2022-08-08T02:04:58.392Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "49",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2022-08-08T02:05:05.343Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "50",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2022-08-08T02:05:12.382Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "51",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2022-08-08T02:05:19.406Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "52",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2022-08-08T02:05:26.358Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "53",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2022-08-08T02:05:33.476Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "54",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2022-08-08T02:05:40.521Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "55",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2022-08-08T02:05:47.905Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "56",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 177,
+  "fields": {
+    "action_time": "2022-08-08T02:05:54.928Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "57",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 178,
+  "fields": {
+    "action_time": "2022-08-08T02:06:01.855Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "58",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 179,
+  "fields": {
+    "action_time": "2022-08-08T02:06:08.804Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "59",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 180,
+  "fields": {
+    "action_time": "2022-08-08T02:06:15.737Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "60",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 181,
+  "fields": {
+    "action_time": "2022-08-08T02:06:22.735Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "61",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 182,
+  "fields": {
+    "action_time": "2022-08-08T02:06:29.706Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "62",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 183,
+  "fields": {
+    "action_time": "2022-08-08T02:06:36.673Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "63",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 184,
+  "fields": {
+    "action_time": "2022-08-08T02:06:43.642Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "64",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 185,
+  "fields": {
+    "action_time": "2022-08-08T02:06:50.606Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "65",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 186,
+  "fields": {
+    "action_time": "2022-08-08T02:06:57.609Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "66",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 187,
+  "fields": {
+    "action_time": "2022-08-08T02:07:04.638Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "67",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 188,
+  "fields": {
+    "action_time": "2022-08-08T02:07:11.617Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "68",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 189,
+  "fields": {
+    "action_time": "2022-08-08T02:07:18.619Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "69",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 190,
+  "fields": {
+    "action_time": "2022-08-08T02:07:25.640Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "70",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 191,
+  "fields": {
+    "action_time": "2022-08-08T02:07:32.670Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "71",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 192,
+  "fields": {
+    "action_time": "2022-08-08T02:07:39.654Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "72",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 193,
+  "fields": {
+    "action_time": "2022-08-08T02:07:46.697Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "73",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 194,
+  "fields": {
+    "action_time": "2022-08-08T02:07:53.715Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "74",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 195,
+  "fields": {
+    "action_time": "2022-08-08T02:08:00.800Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "75",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 196,
+  "fields": {
+    "action_time": "2022-08-08T02:08:07.978Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "76",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 197,
+  "fields": {
+    "action_time": "2022-08-08T02:08:14.980Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "77",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 198,
+  "fields": {
+    "action_time": "2022-08-08T02:08:22.045Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "78",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 199,
+  "fields": {
+    "action_time": "2022-08-08T02:08:29.161Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "79",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 200,
+  "fields": {
+    "action_time": "2022-08-08T02:08:36.282Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "80",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 201,
+  "fields": {
+    "action_time": "2022-08-08T02:08:43.313Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "81",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 202,
+  "fields": {
+    "action_time": "2022-08-08T02:08:50.360Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "82",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 203,
+  "fields": {
+    "action_time": "2022-08-08T02:08:57.485Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "83",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 204,
+  "fields": {
+    "action_time": "2022-08-08T02:09:04.549Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "84",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 205,
+  "fields": {
+    "action_time": "2022-08-08T02:09:11.622Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "85",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 206,
+  "fields": {
+    "action_time": "2022-08-08T02:09:18.753Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "86",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 207,
+  "fields": {
+    "action_time": "2022-08-08T02:09:25.860Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "87",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 208,
+  "fields": {
+    "action_time": "2022-08-08T02:09:32.908Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "88",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 209,
+  "fields": {
+    "action_time": "2022-08-08T02:09:40.073Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "89",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 210,
+  "fields": {
+    "action_time": "2022-08-08T02:09:47.211Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "90",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 211,
+  "fields": {
+    "action_time": "2022-08-08T02:09:54.353Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "91",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 212,
+  "fields": {
+    "action_time": "2022-08-08T02:10:01.456Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "92",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 213,
+  "fields": {
+    "action_time": "2022-08-08T02:10:08.566Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "93",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 214,
+  "fields": {
+    "action_time": "2022-08-08T02:10:15.686Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "94",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 215,
+  "fields": {
+    "action_time": "2022-08-08T02:10:22.982Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "95",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 216,
+  "fields": {
+    "action_time": "2022-08-08T02:10:30.071Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "96",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 217,
+  "fields": {
+    "action_time": "2022-08-08T02:10:37.153Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "97",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 218,
+  "fields": {
+    "action_time": "2022-08-08T02:10:44.269Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "98",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 219,
+  "fields": {
+    "action_time": "2022-08-08T02:10:51.386Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "99",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 220,
+  "fields": {
+    "action_time": "2022-08-08T02:10:58.504Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "100",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 221,
+  "fields": {
+    "action_time": "2022-08-08T02:11:05.596Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "101",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 222,
+  "fields": {
+    "action_time": "2022-08-08T02:11:12.697Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "102",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 223,
+  "fields": {
+    "action_time": "2022-08-08T02:11:19.905Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "103",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 224,
+  "fields": {
+    "action_time": "2022-08-08T02:11:27.077Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "104",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 225,
+  "fields": {
+    "action_time": "2022-08-08T02:11:34.283Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "105",
+    "object_repr": "ruruakak qwerty working at mATREC",
+    "action_flag": 1,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 226,
+  "fields": {
+    "action_time": "2022-08-08T02:17:48.281Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "generalnotes"
+    ],
+    "object_id": "1",
+    "object_repr": "General notes",
+    "action_flag": 2,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 227,
+  "fields": {
+    "action_time": "2022-08-08T20:31:51.481Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "103",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 228,
+  "fields": {
+    "action_time": "2022-08-08T20:32:30.246Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "105",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 229,
+  "fields": {
+    "action_time": "2022-08-08T20:32:33.873Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "104",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 230,
+  "fields": {
+    "action_time": "2022-08-08T20:32:44.031Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "25",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 231,
+  "fields": {
+    "action_time": "2022-08-08T20:32:47.978Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "24",
+    "object_repr": "Lmao Clon working at Meli-mELO [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 232,
+  "fields": {
+    "action_time": "2022-08-08T20:32:52.845Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "102",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 233,
+  "fields": {
+    "action_time": "2022-08-08T20:32:59.478Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "101",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 234,
+  "fields": {
+    "action_time": "2022-08-08T20:33:02.177Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "56",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 235,
+  "fields": {
+    "action_time": "2022-08-08T20:33:04.428Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "39",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 236,
+  "fields": {
+    "action_time": "2022-08-08T20:33:05.992Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "28",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 237,
+  "fields": {
+    "action_time": "2022-08-08T20:33:08.829Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "32",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 238,
+  "fields": {
+    "action_time": "2022-08-08T20:33:10.179Z",
+    "user": [
+      "malikmacbook"
+    ],
+    "content_type": [
+      "employee_management",
+      "employeebaseinformation"
+    ],
+    "object_id": "29",
+    "object_repr": "ruruakak qwerty working at mATREC [Employee]",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]
