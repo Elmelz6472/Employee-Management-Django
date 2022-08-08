@@ -12,7 +12,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-8=w#f25((d&o09=oj4-dte5ntw_el5s^*+yi5308b29#4axank"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 
 ALLOWED_HOSTS = ["10.0.0.218", "127.0.0.1",
@@ -125,6 +125,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATICSFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
+SMUGGLER_FIXTURE_DIR = os.path.join(BASE_DIR, "DATABASE_BACKUP")
 
 # /admin/dump/, to download data from whole project;
 # /admin/load/, to load data from uploaded files or files on SMUGGLER_FIXTURE_DIR;
