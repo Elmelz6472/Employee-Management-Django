@@ -3,7 +3,7 @@ from django.core.validators import MaxValueValidator, MinValueValidator
 
 
 class GeneralNotes(models.Model):
-    notes = models.CharField(max_length=2000, null=True)
+    notes = models.CharField(max_length=2000, null=True, blank=True)
     modified_date = models.DateTimeField(auto_now=True, editable=True)
 
     def __str__(self):
