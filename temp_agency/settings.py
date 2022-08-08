@@ -23,7 +23,6 @@ ALLOWED_HOSTS = ["10.0.0.218", "127.0.0.1",
 
 INSTALLED_APPS = [
     "employee_management",
-    "smuggler",
     "contract_management",
     "django.contrib.admin",
     "django.contrib.auth",
