@@ -23,6 +23,7 @@ ALLOWED_HOSTS = ["10.0.0.218", "127.0.0.1",
 
 INSTALLED_APPS = [
     "employee_management",
+    "smuggler",
     "contract_management",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -124,7 +125,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATICSFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
-SMUGGLER_FIXTURE_DIR = os.path.join(BASE_DIR, "DATABASE_BACKUP")
+# SMUGGLER_FIXTURE_DIR = os.path.join(BASE_DIR, "DATABASE_BACKUP")
 
 # /admin/dump/, to download data from whole project;
 # /admin/load/, to load data from uploaded files or files on SMUGGLER_FIXTURE_DIR;

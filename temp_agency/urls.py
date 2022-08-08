@@ -5,6 +5,7 @@ from django.conf.urls import handler400, handler403, handler404, handler500
 
 
 urlpatterns = [
+    path('admin/', include('smuggler.urls')),
     path("admin/", admin.site.urls),
     path("employee_management/", include("employee_management.urls")),
     path("contract_management/", include("contract_management.urls")),
