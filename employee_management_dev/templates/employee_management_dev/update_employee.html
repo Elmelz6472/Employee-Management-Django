@@ -1,0 +1,31 @@
+{% extends "employee_management_dev/base.html" %}
+
+{% block content %}
+
+
+<div class="row">
+    <div class="col text-center">
+        <h3>Update an employee</h3>
+    <br><br>
+
+    {{ employee }}
+    <br><br>
+
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <br>
+        <input type="submit" value="Update" class="btn btn-secondary">
+    </form>
+
+    <br><br>
+    <button type="button" class="btn btn-outline-primary text-center">
+        <a href="/employee_management_dev">
+            return
+        </a>
+    </button>
+    </div>
+</div>
+
+
+{% endblock %}

@@ -1,8 +1,8 @@
 from django.shortcuts import render
 from django.contrib.auth.decorators import login_required
-from employee_management.models import LocationForWorking
+from employee_management_dev.models import LocationForWorking
 
-URL_LOGIN = "../employee_management/login"
+URL_LOGIN = "../employee_management_dev/login"
 
 
 @login_required(login_url=URL_LOGIN)

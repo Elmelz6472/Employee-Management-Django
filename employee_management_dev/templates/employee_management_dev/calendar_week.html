@@ -1,0 +1,27 @@
+{% extends "employee_management_dev/base_location_2.html" %}
+
+{% block content %}
+
+<div class="container">
+    <div class="d-flex justify-content-start">
+        <h3>Add a week</h3>
+    </div>
+        <h3>{{specific_location}}</h3>
+    <div class="container">
+        <form action="" method="post">
+            {% csrf_token %}
+            {{form.as_p}}
+            <div class="col text-center">
+                <input class="btn btn-outline-primary" type="submit">
+                <a href="{% url 'view-location' new_specific_location.id %}">
+                    <input type="button" class="btn btn-outline-secondary" value="return">
+                </a>
+            </div>
+        </form>
+    </div>
+    <br>
+
+</div>
+
+
+{% endblock %}
