@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.5.2/css/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.bootstrap4.min.css">
+
+    <title>OMEGA - {{user.username}}</title>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light justify-content-between sticky-top" style="background-color: #f1f1f1">
+
+        <a class="navbar-brand">Omega management</a>
+
+        {% if user.is_authenticated %}
+
+        <div class="nav-item">
+            <a>Welcome, {{user.username}}</a>
+        </div>
+
+        {% endif %}
+
+
+        <form class="form-inline">
+            </button>
+        </form>
+
+        <a class="btn btn-outline-primary" href="/employee_management/locations">
+            Locations
+        </a>
+
+        <a href="/employee_management">
+            <input type="button" class="btn btn-outline-primary text-center" value="Employee">
+        </a>
+
+        <a class="btn btn-info" href="/employee_management/view_general_notes">
+            General Notes
+        </a>
+
+        <form class="form-inline">
+            <a href="/contract_management">
+                <input type="button" class="btn btn-secondary text-center" value="Finance">
+            </a>
+            </button>
+        </form>
+
+        <div class="nav-item">
+            <a class="btn btn-warning" href="/employee_management/view_logs">Logs</a>
+        </div>
+
+        <div class="nav-item">
+            <a class="btn btn-dark" href="/employee_management/logout">Logout</a>
+        </div>
+
+    </nav>
+
+
+
+    <div class="container">
+        <br>
+        <div class="d-flex justify-content-start">
+            <div class="p-2">
+                <h3>Location information</h3>
+            </div>
+        </div>
+        <div class="d-flex justify-content-end">
+
+            <div class="p-2">
+                <a class="btn btn-outline-primary" href="{% url 'add-calendar' specific_location.id %}">
+                    Add a new week
+                </a>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="card text-center">
+            <div class="card-header">
+                <a href="{% url 'edit-location' specific_location.id%}" class="font-weight-bolder text-decoration-none">
+                    {{specific_location.location_name}}
+                </a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">
+                    <div class="row d-flex justify-content-center">
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                    </div>
+                </h5>
+                <p class="card-text">
+                    {% if specific_location.notes == None %}
+                    Quick notes...
+                    {% else %}
+                    {{specific_location.notes}}
+                    {% endif%}
+                </p>
+            </div>
+            <div class="card-footer text-muted font-italic">
+                Le melz
+                <br>
+                Please start calendars on monday to avoid any compatibilities problem
+            </div>
+            <a href="/employee_management/locations" class="btn btn-primary">Return</a>
+
+        </div>
+
+        <br><br>
+
+
+        {% for week, employee in new_dct.items %}
+        <br><br>
+        <div class="row d-flex justify-content-start">
+            <h3>
+                From: {{week.1.0.1}} {{week.1.0.0}}
+            </h3>
+        </div>
+
+
+        <div class="row d-flex justify-content-end">
+            <h3>
+                Until: {{week.1.6.1}} {{week.1.6.0}}
+            </h3>
+        </div>
+
+        <div id="test">
+
+        </div>
+
+            <table id=example class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
+                <thead class="thead-dark">
+                    <tr>
+                        <th class="all" scope="col">Employees</th>
+                        <th class="all" scope="col">{{week.1.0.1}} {{week.1.0.0}}</th>
+
+                        <th class="all" scope="col">{{week.1.1.1}} {{week.1.1.0}}</th>
+                        <th class="all" scope="col">{{week.1.2.1}} {{week.1.2.0}}</th>
+                        <th class="all" scope="col">{{week.1.3.1}} {{week.1.3.0}}</th>
+                        <th class="all" scope="col">{{week.1.4.1}} {{week.1.4.0}}</th>
+                        <th class="all" scope="col">{{week.1.5.1}} {{week.1.5.0}}</th>
+                        <th class="all" scope="col">{{week.1.6.1}} {{week.1.6.0}}</th>
+                        <th class="all" scope="col">Total Hours</th>
+                        <th class="all" scope="col">Sub Pay</th>
+                        <th class="all" scope="col">Bonus</th>
+
+
+
+
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                    {% for emp in employee %}
+
+                    {% if emp.0.is_driver == True %}
+                    <tr class="table-info">
+                        {% else %}
+                    <tr>
+                        {% endif %}
+
+                        <td>
+                            <a href="{% url 'view-employee' emp.0.id%}" class="font-weight-bolder text-decoration-none">
+                                {{emp.0.first_name}} {{emp.0.last_name}}
+                            </a>
+
+                        </td>
+
+                        {% if emp.1|length != 0 %}
+                        {% for work in emp.1 %}
+                        <td class="text-center">{{work.monday_num_hours}}</td>
+                        <td class="text-center">{{work.tuesday_num_hours}}</td>
+                        <td class="text-center">{{work.wednesday_num_hours}}</td>
+                        <td class="text-center">{{work.thursday_num_hours}}</td>
+                        <td class="text-center">{{work.friday_num_hours}}</td>
+                        <td class="text-center">{{work.saturday_num_hours}}</td>
+                        <td class="text-center">{{work.sunday_num_hours}}</td>
+                        <td>{{emp.2.0}} hours</td>
+                        <td>{{emp.2.1}}$ <br> @{{emp.0.salary}}/hour</td>
+                        <td>{{emp.2.2}}$ per week</td>
+
+
+                        {% endfor %}
+                        {% else %}
+
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        {% endif %}
+
+
+                        <td>
+                            {% if emp.1|length != 0 %}
+                            {% for work in emp.1 %}
+                            <div class="row d-flex justify-content-center">
+                                <a href="{% url 'edit-hours' specific_location.id week.0.id emp.0.id work.id%}"
+                                    class="btn btn-secondary h-25 w-75">
+                                    Edit Hours
+                                </a>
+                            </div>
+                            <br>
+
+                            {% endfor %}
+                            {% else %}
+
+                            <div class="row d-flex justify-content-center">
+                                <a href="{% url 'add-hours' specific_location.id week.0.id emp.0.id%}" class="btn btn-info">
+                                    Add Hours
+                                </a>
+                            </div>
+
+                            {% endif %}
+
+                        </td>
+                    </tr>
+
+                    {% endfor %}
+
+
+            </table>
+
+
+        <div class="row d-flex justify-content-center">
+            <a onclick="return confirm('Are you sure you want to delete this?')"
+                href="{% url 'delete-calendar' specific_location.id week.0.id %}" class="btn btn-danger">
+                Delete Weekly calendar
+            </a>
+
+            <!-- <a href="{% url 'weekly-calendar-to-pdf' week.0.id %}" class="btn btn-success">
+                Save Weekly calendar to PDF
+            </a> -->
+        </div>
+
+        <br>
+
+        {% endfor %}
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.print.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.colVis.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/responsive.bootstrap4.min.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var table = $('table').DataTable({
+            scrollX: true,
+            lengthChange: false,
+             order: [],
+            dom: 'Bfrtip',
+            searching: false,
+            paging: false,
+            info: false,
+            buttons: [
+                'copy',
+                 {
+                    extend: 'excelHtml5',
+                    title: "{{ specific_location }}_calendar_backup",
+                     exportOptions: {
+                         columns: ':visible'
+                     }
+                },
+                 {
+                    extend: 'pdfHtml5',
+                    orientation: 'landscape',
+                    pageSize: 'LEGAL',
+                    title: "{{ specific_location }}_calendar_backup",
+                     exportOptions: {
+                         columns: ':visible'
+                     }
+                },
+                {
+                    extend: 'print',
+                    text: 'Print',
+                    title: "{{ specific_location }}_calendar_backup",
+                    exportOptions: {
+                        modifier: {
+                            selected: null,
+                            columns: ':visible'
+                        }
+                    }
+                },
+                'colvis'
+            ],
+            select: true
+        });
+
+        table.buttons().container()
+            .appendTo('#example_wrapper .col-md-6:eq(0)');
+    });
+</script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

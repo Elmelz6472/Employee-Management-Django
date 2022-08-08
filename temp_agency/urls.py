@@ -7,8 +7,9 @@ from django.conf.urls import handler400, handler403, handler404, handler500
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("employee_management_dev/", include("employee_management_dev.urls")),
+    path("employee_management/", include("employee_management.urls")),
     path("contract_management/", include("contract_management.urls")),
-    path("", RedirectView.as_view(url="/employee_management_dev/"), name="login-redirect"),
+    path("", RedirectView.as_view(url="/employee_management/"), name="login-redirect"),
 ]
 
 handler500 = "employee_management_dev.views.server_error"

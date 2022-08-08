@@ -25,6 +25,7 @@ ALLOWED_HOSTS = ["10.0.0.218", "127.0.0.1",
 
 INSTALLED_APPS = [
     "employee_management_dev",
+    "employee_management",
     "contract_management",
     "django.contrib.admin",
     "django.contrib.auth",
@@ -61,7 +62,7 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
             ],
             "libraries": {
-                "my_templatetag": "employee_management_dev.templatetags.tags_extra",
+                "my_templatetag": "employee_management.templatetags.tags_extra"
             },
         },
     },
