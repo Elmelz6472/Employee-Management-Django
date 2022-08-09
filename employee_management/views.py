@@ -612,8 +612,11 @@ def weekly_calendar_to_pdf(request, calendar_id):
 @login_required(login_url=LOGIN_URL)
 def view_logs(request):
 
-    logs = list(LogEntry.objects.all().order_by("-action_time"))[:20]
+    logs = list(LogEntry.objects.all().order_by("-action_time"))
     log_count = len(list(logs))
+
+    for i in logs:
+        i.delete()
 
     return render(
         request,
