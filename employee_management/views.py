@@ -736,7 +736,7 @@ def undo_action(request, specific_id, string_object):
             start_date_week=clone_instance.start_date_week,
         )
         assert_new_calendar.save()
-        return redirect("view-location")
+        return redirect("home-location")
 
     return redirect("home-location")
 
