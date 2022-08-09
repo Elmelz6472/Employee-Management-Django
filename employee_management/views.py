@@ -615,8 +615,6 @@ def view_logs(request):
     logs = list(LogEntry.objects.all().order_by("-action_time"))
     log_count = len(list(logs))
 
-    for i in logs:
-        i.delete()
 
     return render(
         request,
