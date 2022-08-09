@@ -24,7 +24,10 @@ First release of temp agency app.
 
 
 ## [1.0.2] - August 8 2022
-### Fixed
+### Added
 - Added shared database between prod and dev for ==> postgrel and sqlite3
+
+### Changed
+- Changed on.DELETE method for employees, employees are still saved even when assigned location is deleted (default place == DEFAULT)
 
 

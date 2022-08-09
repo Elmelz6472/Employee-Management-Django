@@ -42,11 +42,15 @@
                 <td class="text-center">{{item.first_name}}</td>
                 <td class="text-center">{{item.last_name}}</td>
 
+                {% if item.place != None%}
                 <td class="text-center">
                     <a href="{% url 'view-location' item.place.id %}">
                         {{item.place}}
                     </a>
                 </td>
+                {% else %}
+                    <td>Not assigned to place</td>
+                {% endif %}
 
                 <td class="text-center">{{item.phone_number}}</td>
                 <td class="text-center">{{item.start_date}}</td>

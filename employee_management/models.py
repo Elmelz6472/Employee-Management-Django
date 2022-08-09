@@ -31,7 +31,7 @@ class EmployeeBaseInformation(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     place = models.ForeignKey(
-        LocationForWorking, on_delete=models.CASCADE, db_constraint=False, null=True
+        LocationForWorking, on_delete=models.SET_DEFAULT, db_constraint=False, null=True, default=None
     )
     phone_number = models.IntegerField(null=True)
     start_date = models.DateField(null=True)
@@ -48,7 +48,7 @@ class EmployeeBaseInformationClone(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     place = models.ForeignKey(
-        LocationForWorking, on_delete=models.CASCADE, db_constraint=False, null=True
+        LocationForWorking, on_delete=models.SET_DEFAULT, db_constraint=False, null=True, default=None
     )
     phone_number = models.IntegerField(null=True)
     start_date = models.DateField(null=True)

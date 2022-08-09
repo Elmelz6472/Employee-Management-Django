@@ -4,6 +4,7 @@
 {% block content %}
 
 
+
 <div class="table-responsive">
 
 
@@ -69,6 +70,24 @@
 </table>
 
 </div>
+
+
+{% if request.session.alert == alert%}
+<script type="text/javascript">
+    window.onload = function() {
+        alert('Undo location before undoing calendar');
+    }
+</script>
+{% endif %}
+
+
+{% if request.session.alert_employee == alert%}
+<script type="text/javascript">
+    window.onload = function () {
+        alert('Undo location before undoing employee');
+    }
+</script>
+{% endif %}
 
 
 {% endblock %}

@@ -46,8 +46,12 @@ def server_error(request):
     return render(request, "errors/500.html", {})
 
 
-def custom_page_not_found_view(request):
+def custom_page_not_found_view(request, exception):
     return render(request, "errors/404.html", {})
+
+
+def forbidden_error(request, exception):
+    return render(request, "errors/403.html", {})
 
 
 def register_request(request):
@@ -612,10 +616,9 @@ def weekly_calendar_to_pdf(request, calendar_id):
 @login_required(login_url=LOGIN_URL)
 def view_logs(request):
 
-    logs = list(LogEntry.objects.all().order_by("-action_time"))
+    logs = (LogEntry.objects.all().order_by("-action_time"))
     log_count = len(list(logs))
-
-
+    # [i.delete() for i in logs]
     return render(
         request,
         "employee_management/view_logs.html",
@@ -704,41 +707,53 @@ def save_location(request):
 
 @login_required(login_url=LOGIN_URL)
 def undo_action(request, specific_id, string_object):
-    if string_object.strip().endswith("[place]"):
+    request.session['alert'] = ''
+    request.session['alert_employee'] = ''
+
+    if string_object.strip().endswith("[Place]"):
+        print("hellooo")
         clone_instance = LocationForWorkingClone.objects.get(custom_id=specific_id)
         assert_new_location = LocationForWorking(
             location_name=clone_instance.location_name, notes=clone_instance.notes
         )
-        return redirect("home-location")
         assert_new_location.save()
-    if string_object.strip().endswith("[Employee]"):
-        clone_instance = EmployeeBaseInformationClone.objects.get(custom_id=specific_id)
-        assert_new_employee = EmployeeBaseInformation(
-            first_name=clone_instance.first_name,
-            last_name=clone_instance.last_name,
-            place=clone_instance.place,
-            phone_number=clone_instance.phone_number,
-            start_date=clone_instance.start_date,
-            salary=clone_instance.salary,
-            bonus=clone_instance.bonus,
-            is_driver=clone_instance.is_driver,
-            notes=clone_instance.notes,
-        )
-        assert_new_employee.save()
-        return redirect("home")
-
-    if string_object.strip().endswith("[Calendar]"):
-        clone_instance = WeeklyCalendarFromLocationClone.objects.get(
-            custom_id=specific_id
-        )
-        assert_new_calendar = WeeklyCalendarFromLocation(
-            location_place=clone_instance.location_place,
-            start_date_week=clone_instance.start_date_week,
-        )
-        assert_new_calendar.save()
         return redirect("home-location")
 
-    return redirect("home-location")
+    try:
+        if string_object.strip().endswith("[Employee]"):
+            clone_instance = EmployeeBaseInformationClone.objects.get(custom_id=specific_id)
+            assert_new_employee = EmployeeBaseInformation(
+                first_name=clone_instance.first_name,
+                last_name=clone_instance.last_name,
+                place=clone_instance.place,
+                phone_number=clone_instance.phone_number,
+                start_date=clone_instance.start_date,
+                salary=clone_instance.salary,
+                bonus=clone_instance.bonus,
+                is_driver=clone_instance.is_driver,
+                notes=clone_instance.notes,
+            )
+            assert_new_employee.save()
+            return redirect("home")
+    except ObjectDoesNotExist:
+        request.session['alert_employee'] = 'alert'
+        return redirect("view-logs")
+
+    try:
+        if string_object.strip().endswith("[Calendar]"):
+            clone_instance = WeeklyCalendarFromLocationClone.objects.get(
+                custom_id=specific_id
+            )
+            assert_new_calendar = WeeklyCalendarFromLocation(
+                location_place=clone_instance.location_place,
+                start_date_week=clone_instance.start_date_week,
+            )
+            assert_new_calendar.save()
+            return redirect("home-location")
+
+    except ObjectDoesNotExist:
+        request.session['alert'] = 'alert'
+        return redirect("view-logs")
 
 
 def changelog(request):
