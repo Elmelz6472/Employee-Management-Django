@@ -756,6 +756,8 @@ def undo_action(request, specific_id, string_object):
         return redirect("view-logs")
 
 
+    return redirect("view-logs")
+
 def changelog(request):
     module_dir = os.path.dirname(__file__)
     file_path = os.path.join(module_dir, "CHANGELOG.md")
