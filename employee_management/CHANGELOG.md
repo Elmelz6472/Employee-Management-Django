@@ -23,5 +23,8 @@ First release of temp agency app.
   MINOR FIXES filename of PDF, EXCEL and PRINT
 
 
+## [1.0.2] - August 8 2022
+### Fixed
+- Added shared database between prod and dev for ==> postgrel and sqlite3
 
 

@@ -1,3 +1,4 @@
+import dj_database_url
 from pathlib import Path
 import os
 
@@ -76,16 +77,32 @@ WSGI_APPLICATION = "temp_agency.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
-    }
-}
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.sqlite3",
+#         "NAME": BASE_DIR / "db.sqlite3",
+#     }
+# }
 
-import dj_database_url
-db_from_env = dj_database_url.config(conn_max_age=600)
-DATABASES['default'].update(db_from_env)
+DATABASES = {
+
+    'default': {
+
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+        'NAME': 'd6tmompcoq9ga6',
+
+        'USER': 'waeudvxssuldww',
+
+        'PASSWORD': '329dc35161d4add4308ff007182e6d44730ee8b4df7dd944cef7f6f92ebb6378',
+
+        'HOST': 'ec2-54-225-234-165.compute-1.amazonaws.com',
+
+        'PORT': '5432',
+
+    }
+
+}
 
 
 # Password validation
@@ -136,3 +153,7 @@ STATICSFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # /admin/dump/, to download data from whole project;
 # /admin/load/, to load data from uploaded files or files on SMUGGLER_FIXTURE_DIR;
+
+
+db_from_env = dj_database_url.config(conn_max_age=600)
+DATABASES['default'].update(db_from_env)
