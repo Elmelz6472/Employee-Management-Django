@@ -3,12 +3,11 @@ import math
 import os
 import markdown
 from django.shortcuts import render, redirect
-from django.template import RequestContext
 from django.contrib import messages
 from django.contrib.auth import login, authenticate, logout
 from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth.decorators import login_required
-from django.core.exceptions import MultipleObjectsReturned, ObjectDoesNotExist
+from django.core.exceptions import ObjectDoesNotExist
 from django.contrib.admin.models import LogEntry, ADDITION, CHANGE, DELETION
 from django.http import FileResponse
 from django.contrib.contenttypes.models import ContentType
